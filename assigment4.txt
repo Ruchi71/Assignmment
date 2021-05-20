@@ -1,0 +1,40 @@
+Title :- Youtube Video Downloader
+
+Introduction:
+
+This is a GUI based application which is basically 
+used to download the youtube video by using its link 
+address. This application has a listbox which shows the 
+different streams in which we want to download like 
+audio or video with various other options.
+This application has a progress bar label 
+which will show the progress of its download. 
+
+Requirement:
+
+1. This application is requires one of the library of 
+   python which is Tkinter.
+2. It also requires Pytube library of python.
+
+Summary & Implementation:
+
+This is GUI application to download videos of youtube 
+which is made by Tkinter library of python. It takes 
+the input from the user which is basically the link 
+address of the video then the pytube library recognises
+the link and in listbox it display the different streams
+in which video or audio can be downloaded. After selecting
+one of the streams it starts downloading. The downloading
+process shows the progress level of the video its total size,
+remaing size to download and speed of downloading. After 
+downloading a message will be displayed on the screen.
+
+Problems:
+
+The problem which i faced during its implementation 
+was when progress level starts the or activities like 
+displaying its remaining size gets stop. so, i overcome
+this challenge by using threading module in this application
+which solves this problem. Threading module generally
+helps to show all the activities running in the same program
+without hampering other. 
